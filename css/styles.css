@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #222, #444);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffcc00;
+    color: #222;
+    border-radius: 5px;
+}
+
+.entrada {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.entrada img {
+    width: 100%;
+    height: auto;
+}
+
+.subti {
+    font-size: 28px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.temporizador {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 24px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#seccionTexto {
+    background-color: white;
+    padding: 30px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 80%;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#noticias {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#carrusel1, #carrusel2 {
+    width: 200%;
+    max-width: 1200px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#carrusel1:hover, #carrusel2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#carrusel1 img, #carrusel2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#videos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.video1, .video2, .video3, .video4{
+    display: inline-block;
+    margin: 10px;
+}
+
+.referencia {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
